@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="shortcut icon" href="img/archlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>How to install linux 2023</title>
+</head>
+<body>
+  <canvas id="c"></canvas>
+  <div class="text-box">
+ 
+        <h1><strong>How to install Arch linux by Lorence I.(xnb666)</strong></span></h1>
+        &nbsp
+        <p>Note: Before installing Arch linux think carefully before doing the installation because everything on your hard drive or whatever storage you are using now will be erased.</p>
+        &nbsp
+        <p>Arch linux is the part of the most hard operating system on linux! Arch develop in Marh 2002 <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">Linux Family tree</a></p>
+        &nbsp
+      <p>1st Download the Arch linux iso <a href="https://archlinux.org/download/" target="_blank">Download</a></p>
+      <p>Download Rufus <a href="https://rufus.ie/" target="_blank">Download</a></p>
+      <p>Flash the ISO using Rufus, don't change the default by rufus.</p>
+      <p>Now boot using the USB</p>
+
+      <h1>Setup Arch</h1>
+      
+     <p>1. type: <a style="color: red">iwctl</a> (to connect to the internet if you're using a pc no need)</p>
+     <p>2. type:<a style="color: red"> ping google.com</a> (to check if your <strong>PC</strong> connection is stable)</p>
+     <p>3. type: <a style="color: red">station wlan0 connect "yourwifiname"</a></p>
+     <p>3.1 type:your wifi password</p>
+     <p>4. type: <a style="color: red"> pacman-key --init</a></p>
+     <p>5. type:<a style="color: red"> pacman-key --populate archlinux</a></p>
+     <p>6. type: <a style="color: red">bash <(curl -L archtitus.com/archtitus)</a></p>
+     <p>That will automatic setup the Arch, input the things needed to install arch such as the account and the language and hard disk for default use : ssd/exfat4/english</p>
+     <p>when it's done installing remove the usb and type: <a style="color: red">reboot</a></p>
+
+
+    <h1>AFTER REBOOT</h1>
+
+    <p>connect to the internet using the code <a style="color: red">sudo nmcli dev wifi connect "wifi name" password "wifipassword" -enter</a></p>
+      <p>after that install the package for designing the arch linux using the code <a style="color: red">sudo pacman -S nano vim git unzip less wget curl neofetch htop</a></p>
+      <p> install the yay and paru using the code <a style="color: red">sudo pacman -S --needed base-devel git</a> hit enter and follow the <a style="color: red"> git clone https://aur.archlinux.org/paru.git</a></p>
+      <p>after that follow the <a style="color: red"> cd paru</a> and hit enter follow the <a style="color: red">makepkg -si</a></p>
+      <p>and you have now a paru then install the yay using code <a style="color: red">cd /opt</a> hit enter follow the <a style="color: red">sudo git clone https://aur.archlinux.org/yay-git.git</a> hit enter</p>
+      <p> change the file permission from the root to the sudo user using code <a style="color: red">sudo chown -R nameofroot:nameofsudouser ./yay-git </a> enter</p>
+      <p> then install follow this step code <a style="color:red">git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~Hyprdots</a>
+        <p>after that follow code <a style="color: red">cd yay-git</a> enter then follow the <a style="color: red">sudo pacman -S --needed base-devel</a> enter follow the <a style="color: red">makepkg -si</a> enter</p>
+        <p>after that use the code <a style="color:red">cd Hyprdots/Scripts</a> hit enter then follow the <a style="color:red">./install.sh</a></p> 
+        <p> then let the install script do the rest</p>
+
+
+<h1><i>and that's the easy method of installing Arch linux</i></h1>
+
+
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {margin: 0; padding: 0}
+body {
+  background: rgb(0, 0, 0);
+}
+ 
+
+    a:link {
+      color: red;
+    }
+
+    a:visited{
+      color: red;
+    }
+    a:focus,
+    a:hover {
+     
+      text-decoration: none;
+    }
+    
+    a:active {
+      color: red;
+    }
+
+   a { 
+    font-size:medium;
+    color: white;
+    }
+
+  h1 {
+    font-size:medium;
+    font-style: italic;
+    color: white;
+  }
+
+  p{
+    font-size:medium;
+    color: white;
+  }
+
+  canvas {
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -2;
+	transform: translateZ(0);
+  }
+
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.59);
+   border-radius: 7px;
+  }
